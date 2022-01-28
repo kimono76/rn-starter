@@ -13,12 +13,14 @@ var imageName = require('./monkey.svg')
 //        />
 //	</div>
 
-  return <Text style={styles.text}>Hola wendy: esto es una aplicacion de prueba para QIMONO</Text>;
+  return <Text style={styles.text}>Qi MONO</Text>;
 };
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 30,
+    fontSize: 50,
+    color: 'navy',
+    fontFamily: 'sans-serif-light',
   },
 });
 
