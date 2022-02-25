@@ -4,7 +4,7 @@ import HomeScreen from "./src/screens/HomeScreen";
 
 const navigator = createStackNavigator(
   {
-    Home: HomeScreen,
+    Home: Exercise17Screen,
   },
   {
     initialRouteName: "Home",

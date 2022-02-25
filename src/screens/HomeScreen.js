@@ -7,7 +7,6 @@ const HomeScreen = () => {
   const jsxInAaVariable = <Text> by monkeys </Text>
 
 var imageName = require('./monkey.svg')
-  //style={styles.greetingText}
 
   return <View>
     <Text style={styles.greetingText}>{javaScriptVariable}</Text>
@@ -23,11 +22,8 @@ const styles = StyleSheet.create({
     fontSize: 50,
     color: 'navy',
     fontFamily: 'sans-serif-light',
-    // fontWeight: 'bold', 
   },
   greetingText:{
-    //align: 'right',
-    //alignContent: 'center',
     color: 'navy',
     fontWeight: 'bold',
   }
