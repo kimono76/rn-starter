@@ -1,7 +1,7 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-const Excercise17 = () => {
+const Excercise17Screen = () => {
     
     return(
         <Text>Getting Started with React Native</Text>
@@ -9,6 +9,7 @@ const Excercise17 = () => {
 
 }
 
+export default Excercise17Screen
 
 
 
