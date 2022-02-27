@@ -1,4 +1,17 @@
 import React from 'react'
+import { Text } from 'react-native'
+
+const Excercise17 = () => {
+    
+    return(
+        <Text>Getting Started with React Native</Text>
+    )
+
+}
+
+
+
+
 /**
  * Excercise :cap 17
  * 
