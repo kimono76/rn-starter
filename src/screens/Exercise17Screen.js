@@ -1,10 +1,15 @@
 import React from 'react'
-import { Text } from 'react-native'
+import { Text , View} from 'react-native'
 
 const Excercise17Screen = () => {
     
+    const myName = 'Qimono'
+
     return(
-        <Text>Getting Started with React Native</Text>
+        <View>
+            <Text>Getting Started with React Native</Text>
+            <Text>my name is {myName}</Text>
+        </View>
     )
 
 }
