@@ -1,13 +1,29 @@
 import React from 'react'
-import { Text } from 'react-native'
+import { Text, View, StyleSheet } from 'react-native'
 
 const Excercise17Screen = () => {
     
+    const myName = 'Albert'
+
     return(
-        <Text>Getting Started with React Native</Text>
+        <View>
+            <Text style={styles.firstText}>Getting Started with React Native</Text>
+            <Text style={styles.secondText}>my name is {myName}</Text>
+        </View>
     )
 
 }
+
+const styles = StyleSheet.create({
+    firstText:{
+        fontSize: 45,
+    },
+    secondText:{
+        fontSize: 20,
+    }
+
+    
+})
 
 export default Excercise17Screen
 
